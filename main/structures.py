@@ -112,6 +112,7 @@ class Sentence():
         raise StopIteration
 
 class Token():
+
     """
     Tokens are divisions of a Sentence. They are usually separated by whitespaces. Punctuations are also tokens.
     Attributes
