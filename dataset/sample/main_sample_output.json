@@ -1,0 +1,142 @@
+[
+    {
+        "sentence": "உடல் வலிமை பெற:",
+        "Tokens": [
+            {
+                "token": "<SOS>",
+                "Pos": null,
+                "lemma": ""
+            },
+            {
+                "token": "உடல்",
+                "Pos": "NOUN",
+                "lemma": "உடல்"
+            },
+            {
+                "token": "வலிமை",
+                "Pos": "NOUN",
+                "lemma": "வலிமை"
+            },
+            {
+                "token": "பெற",
+                "Pos": "VERB",
+                "lemma": "பெற"
+            },
+            {
+                "token": ":",
+                "Pos": "PUNCT",
+                "lemma": ":"
+            },
+            {
+                "token": "<EOS>",
+                "Pos": null,
+                "lemma": ""
+            }
+        ]
+    },
+    {
+        "sentence": "அருகம்புல் சாறு, தேன் கலந்து சாப்பிட்டு வர ஊளை சதை குறையும்.",
+        "Tokens": [
+            {
+                "token": "<SOS>",
+                "Pos": null,
+                "lemma": ""
+            },
+            {
+                "token": "அருகம்புல்",
+                "Pos": "NOUN",
+                "lemma": "அருகம்புல்"
+            },
+            {
+                "token": "சாறு",
+                "Pos": "VERB",
+                "lemma": "சாறு"
+            },
+            {
+                "token": ",",
+                "Pos": "PUNCT",
+                "lemma": ","
+            },
+            {
+                "token": "தேன்",
+                "Pos": "NOUN",
+                "lemma": "தேன்"
+            },
+            {
+                "token": "கலந்து",
+                "Pos": "VERB",
+                "lemma": "கலந்து"
+            },
+            {
+                "token": "சாப்பிட்டு",
+                "Pos": "PROPN",
+                "lemma": "சாப்பிட்டு"
+            },
+            {
+                "token": "வர",
+                "Pos": "PROPN",
+                "lemma": "வர"
+            },
+            {
+                "token": "ஊளை",
+                "Pos": "NOUN",
+                "lemma": "ஊளை"
+            },
+            {
+                "token": "சதை",
+                "Pos": "NOUN",
+                "lemma": "சதை"
+            },
+            {
+                "token": "குறையும்",
+                "Pos": "VERB",
+                "lemma": "குறையும்"
+            },
+            {
+                "token": ".",
+                "Pos": "PUNCT",
+                "lemma": "."
+            },
+            {
+                "token": "<EOS>",
+                "Pos": null,
+                "lemma": ""
+            }
+        ]
+    },
+    {
+        "sentence": "உடல் வலிமை பெறும்.",
+        "Tokens": [
+            {
+                "token": "<SOS>",
+                "Pos": null,
+                "lemma": ""
+            },
+            {
+                "token": "உடல்",
+                "Pos": "NOUN",
+                "lemma": "உடல்"
+            },
+            {
+                "token": "வலிமை",
+                "Pos": "NOUN",
+                "lemma": "வலிமை"
+            },
+            {
+                "token": "பெறும்",
+                "Pos": "VERB",
+                "lemma": "பெறும்"
+            },
+            {
+                "token": ".",
+                "Pos": "PUNCT",
+                "lemma": "."
+            },
+            {
+                "token": "<EOS>",
+                "Pos": null,
+                "lemma": ""
+            }
+        ]
+    }
+]

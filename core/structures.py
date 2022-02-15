@@ -43,7 +43,9 @@ class Document():
             result = self.sentences[self._index]
             self._index+=1
             return result
-        raise StopIteration
+        else:
+            self._index = 0
+            raise StopIteration
 
 class Sentence():
     """
@@ -109,7 +111,9 @@ class Sentence():
             result = self.tokens[self._index]
             self._index+=1
             return result
-        raise StopIteration
+        else:
+            self._index = 0
+            raise StopIteration
 
 class Token():
 
@@ -158,6 +162,9 @@ class Token():
         self.previous_token = None
         self.SOS = SOS
         self.EOS = EOS
+        self.Pos = None #pos
+        self.raw = self._sentence_string[self.start_pos: self.end_pos]
+        self.repr = self.raw #lemma
 
     def get(self):
         if self.SOS:
@@ -165,7 +172,7 @@ class Token():
         elif self.EOS:
             return '<EOS>'
         else:
-            return self._sentence_string[self.start_pos:self.end_pos]
+            return self.repr
 
     def __repr__(self):
         return self.get()
