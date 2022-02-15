@@ -103,7 +103,7 @@ def convert_tang_to_tamil(inp_str):
       inp_str = inp_str[1:]
   return out_str
 
-filePath = "dataset\sample\smaple_tang_to_ta_output.txt"
+filePath = r"sample_IO\sample_tokenization_output.txt"
 fp = open(filePath, 'w', encoding='utf-8')
 
 tanglish_words = ["makaatmaakkaLuL", "makaatmaavinatu", "makaatmaakkaLaaka", "makaatmaavinuTaiya", "makaatmaaviRkee", "makaatmaaviTamum", "makaatmaavai", "makaatmaataan", "makaatmaavukku", "makaatmaaviTam", "makaatmaavum", "makaatmaakkaL", "makaatmaavaip", "makaatmaakaandtiyaip", "makaatmaavaippaRRi", "makaatmaavin", "makaatmaa", "makaatmaakaandti"]
@@ -115,5 +115,5 @@ fp.close()
 
 """
 SAMPLE I/O
-present in dataset\sample\smaple_tang_to_ta_output.txt
+present in sample_IO\sample_tokenization_output.txt
 """
