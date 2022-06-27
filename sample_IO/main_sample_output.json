@@ -3,7 +3,7 @@
         "sentence": "உடல் வலிமை பெற:",
         "Tokens": [
             {
-                "token": "<SOS>",
+                "token": "",
                 "Pos": null,
                 "lemma": ""
             },
@@ -20,7 +20,7 @@
             {
                 "token": "பெற",
                 "Pos": "VERB",
-                "lemma": "பெற"
+                "lemma": "பெறு"
             },
             {
                 "token": ":",
@@ -28,7 +28,7 @@
                 "lemma": ":"
             },
             {
-                "token": "<EOS>",
+                "token": "",
                 "Pos": null,
                 "lemma": ""
             }
@@ -38,7 +38,7 @@
         "sentence": "அருகம்புல் சாறு, தேன் கலந்து சாப்பிட்டு வர ஊளை சதை குறையும்.",
         "Tokens": [
             {
-                "token": "<SOS>",
+                "token": "",
                 "Pos": null,
                 "lemma": ""
             },
@@ -65,7 +65,7 @@
             {
                 "token": "கலந்து",
                 "Pos": "VERB",
-                "lemma": "கலந்து"
+                "lemma": "கல"
             },
             {
                 "token": "சாப்பிட்டு",
@@ -98,7 +98,7 @@
                 "lemma": "."
             },
             {
-                "token": "<EOS>",
+                "token": "",
                 "Pos": null,
                 "lemma": ""
             }
@@ -108,7 +108,7 @@
         "sentence": "உடல் வலிமை பெறும்.",
         "Tokens": [
             {
-                "token": "<SOS>",
+                "token": "",
                 "Pos": null,
                 "lemma": ""
             },
@@ -125,7 +125,7 @@
             {
                 "token": "பெறும்",
                 "Pos": "VERB",
-                "lemma": "பெறும்"
+                "lemma": "பெறு"
             },
             {
                 "token": ".",
@@ -133,7 +133,7 @@
                 "lemma": "."
             },
             {
-                "token": "<EOS>",
+                "token": "",
                 "Pos": null,
                 "lemma": ""
             }

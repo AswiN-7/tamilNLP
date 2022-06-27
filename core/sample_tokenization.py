@@ -4,7 +4,7 @@ text = inp_file.read()
 
 nlp = Document(text)
 
-filePath = "dataset\sample\smaple_tokenization_output.txt"
+filePath = r"sample_IO\sample_tokenization_output.txt"
 fp = open(filePath, 'w', encoding='utf-8')
 
 for sent in nlp:
@@ -17,5 +17,5 @@ fp.close()
   # print(sent)
 """
 SAMPLE I/O 
-present in dataset\sample\smaple_tokenization_output.txt
+present in sample_IO\sample_tokenization_output.txt
 """

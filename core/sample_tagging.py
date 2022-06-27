@@ -4,7 +4,7 @@ import re
 import json
 modelFilePath = r'preloaded\models\pos_tagging\ud_crf_postagger_tamil.sav'
 fp = open(modelFilePath, 'rb')
-outputFilePath = r'dataset\sample\sample_tagging_output.json'
+outputFilePath = r'sample_IO\sample_tagging_output.json'
 
 pos_model = pickle.load(fp)
 
